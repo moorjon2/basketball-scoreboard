@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "CursedTimer";
+    src: url('CursedTimerUlil-Aznm.ttf');
+}
+
+/* test for the font
+p {
+    font-size: 3rem;
+    font-family: 'CursedTimer', Courier, monospace;
+}
+*/
+
+body {
+    margin: auto;
+    width: 50%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+    background-color: #1B244A;
+    border-radius: 1rem;
+}
+
+body h3 {
+    margin: 2rem 0;
+    color: white;
+    font-size: 3rem;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+}
+
+.score {
+    color: white;
+    font-family: 'CursedTimer', Courier, monospace;
+    font-size: 4rem;
+    color: #F94F6D;
+    background-color: black;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    border: 3px solid white
+}
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plus-btn {
+    background-color: #1B244A;
+    border: 1px solid #9AABD8;
+    color: #9AABD8;
+    border-radius: .2rem;
+    font-family: 'CursedTimer', Courier, monospace;
+    font-size: 1rem;
+    padding: .5rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.plus-btn:hover {
+    border: 1px solid white;
+    color: white;
+}
